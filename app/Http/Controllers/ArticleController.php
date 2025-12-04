@@ -157,4 +157,19 @@ class ArticleController extends Controller
 
         return $pdf->download($filename);
     }
+
+    public function showForUser()
+    {
+        // Ambil artikel terbaru, 10 per halaman
+        $articles = Article::latest()->paginate(10);
+
+        // Kirim ke view user
+        return view('user.article.index', compact('articles'));
+    }
+
+    public function showArticle(Article $article)
+{
+    return view('user.article.show', compact('article'));
+}
+
 }

@@ -117,6 +117,9 @@ Route::middleware(['auth'])->prefix('user')->name('user.')->group(function () {
     Route::get('/quizzes/{id}/leaderboard', [UserQuizController::class, 'leaderboard'])->name('quizzes.leaderboard');
     Route::get('/my-results', [UserQuizController::class, 'myResults'])->name('quizzes.my-results');
 
+    Route::get('/articles', [ArticleController::class, 'showForUser'])->name('articles.index');
+    Route::get('/articles/{article}', [ArticleController::class, 'showArticle'])->name('articles.show');
+
     Route::prefix('waste')->name('waste.')->group(function () {
         Route::get('/create', [UserWasteController::class, 'create'])->name('submit');
         Route::post('/store', [UserWasteController::class, 'store'])->name('store');
@@ -132,8 +135,8 @@ Route::middleware(['auth'])->prefix('user')->name('user.')->group(function () {
 
 
 Route::prefix('petugas')->middleware('isStaff')->name('staff.')->group(function () {
-     Route::get('/rewards/chart/line', [ChartController::class,'rewardLineChart'])->name('rewards.chart.line');
-    Route::get('/rewards/chart/pie', [ChartController::class,'trashPieChart'])->name('rewards.chart.pie');
+    Route::get('/rewards/chart/line', [ChartController::class, 'rewardLineChart'])->name('rewards.chart.line');
+    Route::get('/rewards/chart/pie', [ChartController::class, 'trashPieChart'])->name('rewards.chart.pie');
     Route::prefix('rewards')->name('rewards.')->group(function () {
         Route::get('/', [RewardController::class, 'index'])->name('index');
         Route::post('/store', [RewardController::class, 'store'])->name('store');
@@ -159,7 +162,7 @@ Route::prefix('petugas')->middleware('isStaff')->name('staff.')->group(function 
         Route::post('/{$id}/verify', [WasteSubmissionController::class, 'verify'])->name('verify');
     });
 
-     Route::get('/redemptions', [StaffRewardRedemptionController::class, 'index'])->name('redemptions.index');
+    Route::get('/redemptions', [StaffRewardRedemptionController::class, 'index'])->name('redemptions.index');
 
     // Approve penukaran
     Route::post('/redemptions/{id}/approve', [StaffRewardRedemptionController::class, 'approve'])->name('redemptions.approve');

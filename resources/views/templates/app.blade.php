@@ -795,18 +795,15 @@
                                 <i class="fa-solid fa-gift"></i>Tukar Hadiah
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('user.articles.index') }}">
+                                <i class="fa-solid fa-newspaper"></i>Baca Article
+                            </a>
+                        </li>
                     @endif
                 </ul>
                 <div class="d-flex align-items-center">
                     @if (Auth::check())
-                        <!-- Tampilkan point badge untuk user biasa -->
-                        @if (Auth::user()->role == 'user')
-                            <div class="point-badge">
-                                <i class="fas fa-star"></i>
-                                {{ $userStats['total_points'] ?? 0 }} Points
-                            </div>
-                        @endif
-
                         <div class="dropdown">
                             <div class="user-info d-flex align-items-center dropdown-toggle" data-bs-toggle="dropdown"
                                 aria-expanded="false" id="userDropdown">
