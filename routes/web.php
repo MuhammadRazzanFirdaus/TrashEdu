@@ -4,6 +4,7 @@ use App\Http\Controllers\UserProgressController;
 use App\Http\Controllers\UserQuizController;
 use App\Http\Controllers\QuizController;
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\ChartController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\RewardController;
@@ -131,6 +132,8 @@ Route::middleware(['auth'])->prefix('user')->name('user.')->group(function () {
 
 
 Route::prefix('petugas')->middleware('isStaff')->name('staff.')->group(function () {
+     Route::get('/rewards/chart/line', [ChartController::class,'rewardLineChart'])->name('rewards.chart.line');
+    Route::get('/rewards/chart/pie', [ChartController::class,'trashPieChart'])->name('rewards.chart.pie');
     Route::prefix('rewards')->name('rewards.')->group(function () {
         Route::get('/', [RewardController::class, 'index'])->name('index');
         Route::post('/store', [RewardController::class, 'store'])->name('store');

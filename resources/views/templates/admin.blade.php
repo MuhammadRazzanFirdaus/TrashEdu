@@ -499,11 +499,6 @@
                         <i class="bi bi-graph-up"></i>
                         <span class="menu-text">Progress Quiz</span>
                     </a>
-                    <a href="{{ route('admin.progress.statistics') }}" class="menu-item {{ request()->routeIs('admin.progress.statistics') ? 'active' : '' }}"
-                        data-page-title="Statistics" data-breadcrumb="Statistics" data-route-pattern="statistics">
-                        <i class="bi bi-bar-chart"></i>
-                        <span class="menu-text">Statistics</span>
-                    </a>
                 </div>
             </nav>
         </aside>

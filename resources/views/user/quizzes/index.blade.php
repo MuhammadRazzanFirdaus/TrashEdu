@@ -804,12 +804,12 @@
                                             @if ($quiz->userProgress->completed_at)
                                                 <a href="{{ route('user.quizzes.my-results', $quiz->id) }}"
                                                     class="btn btn-result btn-quiz-action">
-                                                    <i class="fas fa-chart-bar me-2"></i>Lihat Hasil
+                                                    <i class="fas fa-chart-bar"></i>Lihat Hasil
                                                 </a>
-                                                    <a href="{{ route('user.quizzes.leaderboard', $quiz->id) }}"
-                                                        class="btn btn-hero-secondary btn-hero">
-                                                        <i class="fas fa-trophy"></i> Lihat Peringkat
-                                                    </a>
+                                                <a href="{{ route('user.quizzes.leaderboard', $quiz->id) }}"
+                                                    class="btn btn-hero-secondary btn-quiz-action">
+                                                    <i class="fas fa-trophy"></i> Lihat Peringkat
+                                                </a>
                                             @else
                                                 <a href="{{ route('user.quizzes.show', $quiz->id) }}"
                                                     class="btn btn-continue btn-quiz-action">

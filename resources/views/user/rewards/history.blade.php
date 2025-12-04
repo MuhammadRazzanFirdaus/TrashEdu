@@ -36,7 +36,7 @@
                             <span class="badge bg-danger">Rejected</span>
                         @endif
                     </td>
-                    <td>{{ $redemption->created_at->format('d M Y H:i') }}</td>
+                    <td>{{ $redemption->created_at->format('d M Y') }}</td>
                 </tr>
             @empty
                 <tr>

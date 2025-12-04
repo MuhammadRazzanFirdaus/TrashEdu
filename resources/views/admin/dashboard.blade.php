@@ -217,129 +217,111 @@
         </div>
     </div>
 
-    <!-- Key Performance Indicators -->
     <div class="row g-3 mb-4">
-        <div class="col-xl-3 col-md-6">
-            <div class="card stats-card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-start justify-content-between mb-3">
-                        <div class="card-icon bg-primary bg-opacity-10 text-primary">
-                            <i class="bi bi-people"></i>
+    <!-- Kiri: 4 Card KPI -->
+    <div class="col-lg-8">
+        <div class="row g-3">
+            <div class="col-md-6">
+                <div class="card stats-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start justify-content-between mb-3">
+                            <div class="card-icon bg-primary bg-opacity-10 text-primary">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <span class="metric-badge bg-success bg-opacity-10 text-success">
+                                <i class="bi bi-arrow-up me-1"></i>12.5%
+                            </span>
                         </div>
-                        <span class="metric-badge bg-success bg-opacity-10 text-success">
-                            <i class="bi bi-arrow-up me-1"></i>12.5%
-                        </span>
-                    </div>
-                    <h4 class="fw-bold text-dark mb-1">12,489</h4>
-                    <p class="text-muted mb-0">Total Users</p>
-                    <div class="mt-2">
-                        <small class="text-muted">
-                            <i class="bi bi-calendar me-1"></i>Last 30 days
-                        </small>
+                        <h4 class="fw-bold text-dark mb-1">12,489</h4>
+                        <p class="text-muted mb-0">Total Users</p>
+                        <div class="mt-2">
+                            <small class="text-muted">
+                                <i class="bi bi-calendar me-1"></i>Last 30 days
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card stats-card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-start justify-content-between mb-3">
-                        <div class="card-icon bg-success bg-opacity-10 text-success">
-                            <i class="bi bi-recycle"></i>
+
+            <div class="col-md-6">
+                <div class="card stats-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start justify-content-between mb-3">
+                            <div class="card-icon bg-success bg-opacity-10 text-success">
+                                <i class="bi bi-recycle"></i>
+                            </div>
+                            <span class="metric-badge bg-success bg-opacity-10 text-success">
+                                <i class="bi bi-arrow-up me-1"></i>8.3%
+                            </span>
                         </div>
-                        <span class="metric-badge bg-success bg-opacity-10 text-success">
-                            <i class="bi bi-arrow-up me-1"></i>8.3%
-                        </span>
-                    </div>
-                    <h4 class="fw-bold text-dark mb-1">38,472</h4>
-                    <p class="text-muted mb-0">Recycling Activities</p>
-                    <div class="mt-2">
-                        <small class="text-muted">
-                            <i class="bi bi-activity me-1"></i>Live tracking
-                        </small>
+                        <h4 class="fw-bold text-dark mb-1">38,472</h4>
+                        <p class="text-muted mb-0">Recycling Activities</p>
+                        <div class="mt-2">
+                            <small class="text-muted">
+                                <i class="bi bi-activity me-1"></i>Live tracking
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card stats-card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-start justify-content-between mb-3">
-                        <div class="card-icon bg-warning bg-opacity-10 text-warning">
-                            <i class="bi bi-journal-text"></i>
+
+            <div class="col-md-6">
+                <div class="card stats-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start justify-content-between mb-3">
+                            <div class="card-icon bg-warning bg-opacity-10 text-warning">
+                                <i class="bi bi-journal-text"></i>
+                            </div>
+                            <span class="metric-badge bg-success bg-opacity-10 text-success">
+                                <i class="bi bi-arrow-up me-1"></i>15.2%
+                            </span>
                         </div>
-                        <span class="metric-badge bg-success bg-opacity-10 text-success">
-                            <i class="bi bi-arrow-up me-1"></i>15.2%
-                        </span>
-                    </div>
-                    <h4 class="fw-bold text-dark mb-1">1,567</h4>
-                    <p class="text-muted mb-0">Articles Published</p>
-                    <div class="mt-2">
-                        <small class="text-muted">
-                            <i class="bi bi-eye me-1"></i>245K views
-                        </small>
+                        <h4 class="fw-bold text-dark mb-1">1,567</h4>
+                        <p class="text-muted mb-0">Articles Published</p>
+                        <div class="mt-2">
+                            <small class="text-muted">
+                                <i class="bi bi-eye me-1"></i>245K views
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-xl-3 col-md-6">
-            <div class="card stats-card border-0 shadow-sm">
-                <div class="card-body">
-                    <div class="d-flex align-items-start justify-content-between mb-3">
-                        <div class="card-icon bg-info bg-opacity-10 text-info">
-                            <i class="bi bi-chat-dots"></i>
+
+            <div class="col-md-6">
+                <div class="card stats-card border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex align-items-start justify-content-between mb-3">
+                            <div class="card-icon bg-info bg-opacity-10 text-info">
+                                <i class="bi bi-chat-dots"></i>
+                            </div>
+                            <span class="metric-badge bg-danger bg-opacity-10 text-danger">
+                                <i class="bi bi-arrow-down me-1"></i>2.1%
+                            </span>
                         </div>
-                        <span class="metric-badge bg-danger bg-opacity-10 text-danger">
-                            <i class="bi bi-arrow-down me-1"></i>2.1%
-                        </span>
-                    </div>
-                    <h4 class="fw-bold text-dark mb-1">892</h4>
-                    <p class="text-muted mb-0">User Testimonials</p>
-                    <div class="mt-2">
-                        <small class="text-muted">
-                            <i class="bi bi-star me-1"></i>4.8 avg rating
-                        </small>
+                        <h4 class="fw-bold text-dark mb-1">892</h4>
+                        <p class="text-muted mb-0">User Testimonials</p>
+                        <div class="mt-2">
+                            <small class="text-muted">
+                                <i class="bi bi-star me-1"></i>4.8 avg rating
+                            </small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Analytics & Actions -->
-    <div class="row g-3">
-        <!-- Analytics Section -->
-        <div class="col-xl-8">
-            <div class="card chart-card border-0 shadow-sm mb-3">
-                <div class="card-header bg-transparent border-0 py-3">
-                    <div class="section-header">
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div>
-                                <h5 class="card-title fw-bold mb-1 text-dark">Platform Growth Analytics</h5>
-                                <p class="text-muted mb-0">Monthly performance trends and user engagement</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="chart-container" style="height: 300px;">
-                        <canvas id="mainChart"></canvas>
-                    </div>
+    <!-- Kanan: Quick Actions -->
+    <div class="col-lg-4">
+        <div class="card quick-action-card border-0 shadow-sm mb-3">
+            <div class="card-header bg-transparent border-0 py-3">
+                <div class="section-header">
+                    <h5 class="card-title fw-bold mb-0 text-dark">Quick Actions</h5>
                 </div>
             </div>
-        </div>
-
-        <!-- Actions & Status -->
-        <div class="col-xl-4">
-            <!-- Quick Actions -->
-            <div class="card quick-action-card border-0 shadow-sm mb-3">
-                <div class="card-header bg-transparent border-0 py-3">
-                    <div class="section-header">
-                        <h5 class="card-title fw-bold mb-0 text-dark">Quick Actions</h5>
-                    </div>
-                </div>
-                <div class="card-body">
-                    <div class="row g-2">
-                        <div class="col-6">
+            <div class="card-body">
+                <div class="row g-2">
+                    <div class="col-6">
                         <a href="{{ route('admin.users.create') }}">
                             <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
                                 <div class="text-primary mb-1">
@@ -349,8 +331,8 @@
                                 <small class="text-muted">Create account</small>
                             </button>
                         </a>
-                        </div>
-                        <div class="col-6">
+                    </div>
+                    <div class="col-6">
                         <a href="{{ route('admin.articles.create') }}">
                             <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
                                 <div class="text-success mb-1">
@@ -360,30 +342,31 @@
                                 <small class="text-muted">Publish content</small>
                             </button>
                         </a>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
-                                <div class="text-warning mb-1">
-                                    <i class="bi bi-graph-up-arrow fs-5"></i>
-                                </div>
-                                <h6 class="fw-semibold mb-1">Analytics</h6>
-                                <small class="text-muted">View reports</small>
-                            </button>
-                        </div>
-                        <div class="col-6">
-                            <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
-                                <div class="text-info mb-1">
-                                    <i class="bi bi-gear-fill fs-5"></i>
-                                </div>
-                                <h6 class="fw-semibold mb-1">Settings</h6>
-                                <small class="text-muted">System config</small>
-                            </button>
-                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
+                            <div class="text-warning mb-1">
+                                <i class="bi bi-graph-up-arrow fs-5"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-1">Analytics</h6>
+                            <small class="text-muted">View reports</small>
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn quick-action-btn w-100 h-100 p-2 text-start">
+                            <div class="text-info mb-1">
+                                <i class="bi bi-gear-fill fs-5"></i>
+                            </div>
+                            <h6 class="fw-semibold mb-1">Settings</h6>
+                            <small class="text-muted">System config</small>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 </div>
 @endsection
 

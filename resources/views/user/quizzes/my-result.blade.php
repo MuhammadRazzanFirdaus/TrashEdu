@@ -261,7 +261,7 @@
                 <table class="table history-table">
                     <thead>
                         <tr>
-                            <th>Quiz</th>
+                            <th>Judul Quiz</th>
                             <th>Skor</th>
                             <th>Tanggal Selesai</th>
                             <th>Aksi</th>

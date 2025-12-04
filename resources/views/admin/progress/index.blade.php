@@ -36,9 +36,6 @@
                     </div>
                     <div class="col-md-6 text-end">
                         <div class="d-flex gap-2 justify-content-end">
-                            <a href="{{ route('admin.progress.statistics') }}" class="btn btn-info btn-sm">
-                                <i class="bi bi-bar-chart me-1"></i> Statistik
-                            </a>
                             <a href="{{ route('admin.progress.create') }}" class="btn btn-success btn-sm">
                                 <i class="bi bi-plus-circle me-1"></i> Tambah Progress
                             </a>

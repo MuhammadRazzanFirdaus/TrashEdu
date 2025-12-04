@@ -792,7 +792,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{route('user.rewards.redeem')}}">
-                                <i class="fas fa-users me-1"></i>Komunitas
+                                <i class="fa-solid fa-gift"></i>Tukar Hadiah
                             </a>
                         </li>
                     @endif
@@ -827,12 +827,6 @@
                             </div>
                             <ul class="dropdown-menu dropdown-menu-end user-dropdown-menu"
                                 aria-labelledby="userDropdown">
-                                <li>
-                                    <a class="dropdown-item profile-item" href="#">
-                                        <i class="fas fa-user me-2"></i>
-                                        <span>Profile</span>
-                                    </a>
-                                </li>
                                 @if (Auth::user()->role == 'user')
                                     <li>
                                         <a class="dropdown-item points-item" href="#">
